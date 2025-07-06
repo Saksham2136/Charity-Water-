@@ -1,85 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Charity: Water - Student Campaign</title>
+    <!-- Google Fonts for Playfair Display and Montserrat -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Responsive meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Decorative background shapes -->
+    <div class="decorative-bg"></div>
+    <!-- Top Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">charity: water</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Take Action</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #ffffff;
-    color: #1c1c1c;
-}
-
-header {
-    background-color: #ffffff;
-    padding: 20px 40px;
-    border-bottom: 1px solid #eee;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 25px;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #1c1c1c;
-    font-weight: 500;
-}
-
-.hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px 40px;
-}
-
-.hero-text {
-    max-width: 50%;
-}
-
-.hero-text h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 42px;
-    color: #2c5f2d;
-}
-
-.hero-text h2 {
-    font-size: 28px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    color: #2c5f2d;
-}
-
-.hero-text p {
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-.cta-button {
-    margin-top: 20px;
-    display: inline-block;
-    background-color: #ffd300;
-    color: #000;
-    padding: 12px 24px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 4px;
-}
-
-.hero-image img {
-    max-width: 400px;
-    border-radius: 8px;
-}
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Change Starts With You</h1>
+            <h2>Give Water, Give Life</h2>
+            <p>
+                Around the world, 1 in 10 people live without access to clean, safe drinking water.
+                This crisis affects health, education, and entire communities. From your campus, 
+                you have the power to make a difference and help bring clean water to those who need it most.
+            </p>
+            <a href="#" class="cta-button">Give the Gift of Water Now</a>
+        </div>
+        <div class="hero-image">
+            <!-- Updated hero image -->
+            <img src="img/hero5.png" alt="Children collecting water at a pump in a rural village">
+        </div>
+    </section>
+</body>
+</html>
